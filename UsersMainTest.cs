@@ -11,7 +11,8 @@ namespace TigerByte
         public static void Main(string[] args)
         {
             //TODO talk to Chris or Mark about security
-            string password = Environment.GetEnvironmentVariable("<password>");
+            string password = "w3schools";
+                //Environment.GetEnvironmentVariable("<password>");
 
             var mongoUri = "mongodb+srv://root:" + password + "@cluster0.nzth94y.mongodb.net/?retryWrites=true&w=majority";
 
@@ -40,14 +41,45 @@ namespace TigerByte
                 return;
             }
 
-            //one database 3 collections (users, problems, submissions)
+            //one database 2 collections (users, problems)
             var dbName = "TigerByteDB";
-            var collectionName = "UsersColl";
+            var collectionName1 = "UsersColl";
+            var collectionName2 = "ProblemsColl";
 
-            var collection = client.GetDatabase(dbName)
-                   .GetCollection<Users>(collectionName);
 
+            var collection1 = client.GetDatabase(dbName)
+                   .GetCollection<Users>(collectionName1);
+            var collection2 = client.GetDatabase(dbName)
+                   .GetCollection<Users>(collectionName2);
+
+
+
+
+            //var usersCRUD = new UsersCRUD(client.GetDatabase(dbName));
+            var problemsCRUD = new ProblemsCRUD(client.GetDatabase(dbName));
+
+            // Insert a new user using the InsertUser method from UsersCRUD
+            //var newUser = new Users("Susan Smith", "ss@doane.edu");
+            //var newerUser = new Users("Bob Smith", "bs@doane.edu");
+
+            var newProblem = new Problems("Hello World", "Write a program that prints out Hello World!", "print('Hello world!')", "strings");
+
+
+            //usersCRUD.InsertUser(newUser);
+            //usersCRUD.InsertUser(newerUser);
+            //usersCRUD.getAllUsers();
+
+
+            problemsCRUD.InsertProblem(newProblem);
+            problemsCRUD.getAllProblems();
             
+            
+            // usersCRUD.deleteOneUser("ss@doane.edu");
+
+           //usersCRUD.deleteAll();
+            //dbName.collectionName.find().pretty();
+
+
         }
         
 
@@ -63,38 +95,37 @@ namespace TigerByte
         public string Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
-        public int UserId { get; set; }
 
-        public Users(string name, string email, int userid)
+
+        public Users(string name, string email)
         {
             this.Name = name;
             this.Email = email;
-            this.UserId = userid;
 
         }
 
-        /// <summary>
-        /// This static method is just here so we have a convenient way
-        /// to generate sample user data.
-        /// </summary>
-        /// <returns>A list of Users</returns>       
-        public static List<Users> GetUsers()
+
+    }
+
+    public class Problems
+    {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Id { get; set; }
+        public string ProblemName { get; set; }
+        public string Problem { get; set; }
+        public string Solution { get; set; }
+        public string Type { get; set; }
+
+
+        public Problems(string pn, string p, string s, string type)
         {
-            return new List<Users>()
-            {
-
-                new Users("Olivia Navarro", "olivia.navarro@doane.edu", 1),
-                new Users("Kamryn Plock", "kamryn.plock@doane.edu", 2),
-                new Users("Mark Meysenburg", "mark.meysenburg@doane.edu", 3),
-                new Users("Alec Engebretson", "alec.engebretson@doane.edu", 4),
-
-
-            };
+            this.ProblemName = pn;
+            this.Problem = p;
+            this.Solution = s;
+            this.Type = type;
         }
 
-        internal void InsertOne(Users theuser)
-        {
-            throw new NotImplementedException();
-        }
+
     }
 }

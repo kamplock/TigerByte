@@ -19,7 +19,7 @@ public class UsersCRUD
 
 
     //insert one - create
-    public Users InsertUser(Users collection, Users theuser)
+    public Users InsertUser(Users theuser)
     {
         try
         {
@@ -41,8 +41,7 @@ public class UsersCRUD
 
         foreach (Users users in allDocs)
         {
-            Console.WriteLine($"{users.Name}'s email address is {users.Email} and " +
-                $"has an id of {users.UserId}");
+            Console.WriteLine($"{users.Name}'s email address is {users.Email}");
             Console.WriteLine();
         }
     }
