@@ -25,7 +25,7 @@ public class UsersController : Controller
     [HttpPost]
     public async Task<IActionResult> PostUser([FromBody] Users user) {
         await _mongoDBService.CreateUserAsync(user);
-        return CreatedAtAction(nameof(Get), new { id = user.Id }, user);
+        return CreatedAtAction(nameof(GetUsers), new { id = user.Id }, user);
 
     }
 

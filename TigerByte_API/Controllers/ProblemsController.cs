@@ -28,12 +28,15 @@ public class ProblemsController : Controller
     [HttpPost]
     public async Task<IActionResult> PostProblem([FromBody] Problems problem) {
         await _mongoDBService.CreateProblemAsync(problem);
-        return CreatedAtAction(nameof(Get), new { id = problem.Id }, problem);
+        return CreatedAtAction(nameof(GetProblems), new { id = problem.Id }, problem);
 
     }
 
     [HttpPut("{problemName}")]
-    public async Task<IActionResult> AddToProblems(string problemName, string problem, string solution, string type, [FromBody] string problemsList) { }
+    public async Task<IActionResult> AddToProblems(string problemName, string problem, string solution, string type, [FromBody] string problemsList) {
+        await _mongoDBService.AddToProblemsAsync(problemName, problem, solution, type);
+        return NoContent();
+    }
 
     [HttpDelete("{problemName}")]
     public async Task<IActionResult> DeleteProblem(string problemName) {

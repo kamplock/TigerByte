@@ -11,10 +11,10 @@ public class Problems
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
     public string? Id { get; set; }
-    public string ProblemName { get; set; }
-    public string Problem { get; set; }
-    public string Solution { get; set; }
-    public string Type { get; set; }
+    public string? ProblemName { get; set; }
+    public string? Problem { get; set; }
+    public string? Solution { get; set; }
+    public string? Type { get; set; }
 
     //public string username { get; set; } = null!;
 
