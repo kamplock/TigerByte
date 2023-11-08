@@ -11,8 +11,7 @@ namespace TigerByte
         public static void Main(string[] args)
         {
             //TODO talk to Chris or Mark about security
-            string password = "w3schools";
-                //Environment.GetEnvironmentVariable("<password>");
+            string password = Environment.GetEnvironmentVariable("secret_key");
 
             var mongoUri = "mongodb+srv://root:" + password + "@cluster0.nzth94y.mongodb.net/?retryWrites=true&w=majority";
 
@@ -70,8 +69,11 @@ namespace TigerByte
             //usersCRUD.getAllUsers();
 
 
-            problemsCRUD.InsertProblem(newProblem);
-            problemsCRUD.getAllProblems();
+            //problemsCRUD.InsertProblem(newProblem);
+            Console.WriteLine(problemsCRUD.getAllProblems());
+
+           //problemsCRUD.getOneProblemByName("Hello World");
+           //problemsCRUD.getOneProblemByType("strings");
             
             
             // usersCRUD.deleteOneUser("ss@doane.edu");

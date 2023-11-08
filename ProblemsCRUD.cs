@@ -35,9 +35,10 @@ public class ProblemsCRUD
     }
 
     //read all users
-    public void getAllProblems()
+    public List<Problems> getAllProblems()
     {
         var allDocs = collection.Find(Builders<Problems>.Filter.Empty).ToList();
+        return allDocs;
 
         foreach (Problems problems in allDocs)
         {
@@ -46,18 +47,22 @@ public class ProblemsCRUD
         }
     }
 
-    //read one user
+    //read one problem
     public string getOneProblemByName(string name)
     {
+        
         var findFilter = Builders<Problems>.Filter.Eq("ProblemName", name);
+        Console.WriteLine("getOneProbByName findfilter: " + findFilter);
 
         var findResult = collection.Find(findFilter).FirstOrDefault();
+        Console.WriteLine("getOneProbByName findresult: " + findResult);
 
         if (findResult == null)
         {
             return "I didn't find a problem with the name that matched.";
         }
         return findResult.ToString();
+        
     }
 
     public string getOneProblemByType(string type)
@@ -78,7 +83,7 @@ public class ProblemsCRUD
     {
         var findFilter = Builders<Problems>.Filter.Eq(solOrType, updated);
 
-        if (solOrType.Equals("Soltution"))
+        if (solOrType.Equals("Solution"))
         {
             var updateFilter = Builders<Problems>.Update.Set(t => t.Solution, updated);
 
