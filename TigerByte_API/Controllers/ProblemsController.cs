@@ -4,6 +4,7 @@ using TigerByte_API.Services;
 using TigerByte_API.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 
 namespace TigerByte_API.Controllers;
 
@@ -34,7 +35,7 @@ public class ProblemsController : Controller
 
     [HttpPut("{problemName}")]
     public async Task<IActionResult> AddToProblems(string problemName, string problem, string solution, string type, [FromBody] string problemsList) {
-        await _mongoDBService.AddToProblemsAsync(problemName, problem, solution, type);
+        await _mongoDBService.AddToProblemsAsync(problemName, problem, solution, type, problemsList);
         return NoContent();
     }
 

@@ -4,6 +4,7 @@ using MongoDB.Driver;
 using MongoDB.Bson;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System;
 
 namespace TigerByte_API.Services;
 public class MongoDBService
@@ -28,7 +29,7 @@ public class MongoDBService
 
     //create user
     public async Task CreateUserAsync(Users user) {
-        await _usersCollection.InsertAsync(user);
+        await _usersCollection.InsertOneAsync(user);
         return;
     
     }
@@ -58,14 +59,14 @@ public class MongoDBService
 
     //create problem
     public async Task CreateProblemAsync(Problems problem) {
-        await _problemsCollection.InsertAsync(problem);
+        await _problemsCollection.InsertOneAsync(problem);
         return;
     
     }
 
-    public async Task AddToProblemsAsync(string problemName, string problem, string solution, string type) {
+    public async Task AddToProblemsAsync(string problemName, string problem, string solution, string type, string problemsList) {
         FilterDefinition<Problems> filter = Builders<Problems>.Filter.Eq("Type", type);
-        UpdateDefinition<Problems> update = Builders<Problems>.Update.AddToSet<string>("problemsList", type);
+        UpdateDefinition<Problems> update = Builders<Problems>.Update.AddToSet<string>("problemsList", problemsList);
         await _problemsCollection.UpdateOneAsync(filter, update);
         return;
 

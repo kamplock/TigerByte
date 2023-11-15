@@ -11,16 +11,17 @@ public class Problems
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
     public string? Id { get; set; }
-    public string? ProblemName { get; set; }
-    public string? Problem { get; set; }
-    public string? Solution { get; set; }
-    public string? Type { get; set; }
+    public string ProblemName { get; set; } = null!;
+    public string Problem { get; set; } = null!;
+    public string Solution { get; set; } = null!;
+    public string Type { get; set; } = null!;
 
     //public string username { get; set; } = null!;
 
     
-    [BsonElement("items")]
-    [JsonPropertyName("items")]
+    [BsonElement("problemsList")]
+    [JsonPropertyName("problemsList")]
     public List<string> problemsList { get; set; } = null!;
+    
     
 }
