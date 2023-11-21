@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TigerByte_Web_Copy.props" />
+</Project>

@@ -1,0 +1,6 @@
+@TigerByte_Web_Copy_HostAddress = http://localhost:5212
+
+GET {{TigerByte_Web_Copy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
