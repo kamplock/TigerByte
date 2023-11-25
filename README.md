@@ -1,5 +1,5 @@
 ## TigerByte
-This project is by [Kamryn Plock](github.com/kamplock) and [Olivia Navarro](github.com/olivianavarro) during the 2023-2024 school year as a Senior Capstone Project at Doane University.
+This project is by [Kamryn Plock](https://github.com/kamplock/) and [Olivia Navarro](https://github.com/olivianavarro/) during the 2023-2024 school year as a Senior Capstone Project at Doane University.
 
 ## Current Tech Stack 
 * MongoDB
