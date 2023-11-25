@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByte_fix_copy\\TigerByte_Web_Copy\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByte_fix_copy\\TigerByte_Web_Copy\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByte_fix_copy\\TigerByte_Web_Copy\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TigerByte_Web_Copy.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TigerByte_Web_Copy.props",
+      "PackagePath": "build\\TigerByte_Web_Copy.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TigerByte_Web_Copy.props",
+      "PackagePath": "buildMultiTargeting\\TigerByte_Web_Copy.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TigerByte_Web_Copy.props",
+      "PackagePath": "buildTransitive\\TigerByte_Web_Copy.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

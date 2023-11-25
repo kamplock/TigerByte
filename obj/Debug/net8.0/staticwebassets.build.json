@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "BilACjsxo40JlGGX7ctJI+e3RZcWzcxuhlHpS73Cn1w=",
+  "Hash": "F0UqCCZbFSeTujhwGG0J6p60zTzShsz6biJLxrMYs7c=",
   "Source": "TigerByte_Web_Copy",
   "BasePath": "_content/TigerByte_Web_Copy",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "TigerByte_Web_Copy\\wwwroot",
+      "Source": "TigerByte_Web_Copy",
+      "ContentRoot": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByte_fix_copy\\TigerByte_Web_Copy\\wwwroot\\",
+      "BasePath": "_content/TigerByte_Web_Copy",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByte_fix_copy\\TigerByte_Web_Copy\\wwwroot\\css\\index.css",
+      "SourceId": "TigerByte_Web_Copy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByte_fix_copy\\TigerByte_Web_Copy\\wwwroot\\",
+      "BasePath": "_content/TigerByte_Web_Copy",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByte_fix_copy\\TigerByte_Web_Copy\\wwwroot\\index.html",
+      "SourceId": "TigerByte_Web_Copy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByte_fix_copy\\TigerByte_Web_Copy\\wwwroot\\",
+      "BasePath": "_content/TigerByte_Web_Copy",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByte_fix_copy\\TigerByte_Web_Copy\\wwwroot\\js\\index.js",
+      "SourceId": "TigerByte_Web_Copy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByte_fix_copy\\TigerByte_Web_Copy\\wwwroot\\",
+      "BasePath": "_content/TigerByte_Web_Copy",
+      "RelativePath": "js/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
+    }
+  ]
 }

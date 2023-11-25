@@ -43,3 +43,4 @@ C:\Users\kampl\OneDrive\Desktop\TigerByte_fix_copy\TigerByte_Web_Copy\obj\Debug\
 C:\Users\kampl\OneDrive\Desktop\TigerByte_fix_copy\TigerByte_Web_Copy\obj\Debug\net8.0\TigerByte_Web_Copy.pdb
 C:\Users\kampl\OneDrive\Desktop\TigerByte_fix_copy\TigerByte_Web_Copy\obj\Debug\net8.0\TigerByte_Web_Copy.genruntimeconfig.cache
 C:\Users\kampl\OneDrive\Desktop\TigerByte_fix_copy\TigerByte_Web_Copy\obj\Debug\net8.0\ref\TigerByte_Web_Copy.dll
+C:\Users\kampl\OneDrive\Desktop\TigerByte_fix_copy\TigerByte_Web_Copy\bin\Debug\net8.0\TigerByte_Web_Copy.staticwebassets.runtime.json
