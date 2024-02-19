@@ -16,12 +16,8 @@ public class Problems
     public string Solution { get; set; } = null!;
     public string Type { get; set; } = null!;
 
-    //public string username { get; set; } = null!;
 
 
-    [BsonElement("problemsList")]
-    [JsonPropertyName("problemsList")]
-    public List<string> problemsList { get; set; } = null!;
 
 
 }

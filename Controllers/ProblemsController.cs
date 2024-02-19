@@ -35,17 +35,17 @@ public class ProblemsController : Controller
 
     }
 
-    [HttpPut("{problemName}")]
-    public async Task<IActionResult> AddToProblems(string problemName, string problem, string solution, string type, [FromBody] string problemsList)
+    [HttpPut("{id}")]
+    public async Task<IActionResult> AddToProblems([FromBody] Problems problem, string id)
     {
-        await _mongoDBService.AddToProblemsAsync(problemName, problem, solution, type, problemsList);
+        await _mongoDBService.UpdateProblemsAsync(id, problem.ProblemName, problem.Problem, problem.Solution, problem.Type);
         return NoContent();
     }
 
-    [HttpDelete("{problemName}")]
-    public async Task<IActionResult> DeleteProblem(string problemName)
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteProblem(string id)
     {
-        await _mongoDBService.DeleteProblemAsync(problemName);
+        await _mongoDBService.DeleteProblemAsync(id);
         return NoContent();
 
     }

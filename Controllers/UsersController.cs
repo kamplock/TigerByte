@@ -33,18 +33,20 @@ public class UsersController : Controller
 
     }
 
-    [HttpPut("{email}")]
-    public async Task<IActionResult> AddToUsers(string email, [FromBody] string usersList)
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateEmail([FromBody] Users user, string id)
     {
-        await _mongoDBService.AddToUsersAsync(email, usersList);
+
+        await _mongoDBService.UpdateUserAsync(id, user.Email, user.Name);
         return NoContent();
 
     }
 
-    [HttpDelete("{email}")]
-    public async Task<IActionResult> DeleteUser(string email)
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteUser(string id)
     {
-        await _mongoDBService.DeleteUserAsync(email);
+        await _mongoDBService.DeleteUserAsync(id);
         return NoContent();
     }
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TigerByte_Web_Copy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ae9e30586d8fe6c2361d7b25d4a323af7f8039d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TigerByte_Web_Copy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TigerByte_Web_Copy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

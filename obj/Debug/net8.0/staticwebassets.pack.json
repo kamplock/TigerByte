@@ -1,16 +1,28 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByte_fix_copy\\TigerByte_Web_Copy\\wwwroot\\css\\index.css",
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
-      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByte_fix_copy\\TigerByte_Web_Copy\\wwwroot\\index.html",
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\css\\index1.css",
+      "PackagePath": "staticwebassets\\css\\index1.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByte_fix_copy\\TigerByte_Web_Copy\\wwwroot\\js\\index.js",
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\index1.html",
+      "PackagePath": "staticwebassets\\index1.html"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\js\\index.js",
       "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\js\\index1.js",
+      "PackagePath": "staticwebassets\\js\\index1.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TigerByte_Web_Copy.Microsoft.AspNetCore.StaticWebAssets.props",

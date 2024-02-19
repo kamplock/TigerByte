@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D74T5xixENalb0OVpIN1ruHqDu0IXXUQ6PSKxDELkbnJ7+xcHWT032YgwXGMuxfzKSOnC4mAnnhvZm2fTuIflw==",
+  "dgSpecHash": "bv0/FufLUEHw3IL79VFFZNknsPATpPnSqfjQitK8byT7lQA0GZTH4ULrQE4gNFayMLd8BpbQg7VJXSef7L+R9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByte_fix_copy\\TigerByte_Web_Copy\\TigerByte_Web_Copy.csproj",
+  "projectFilePath": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\TigerByte_Web_Copy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kampl\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\kampl\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

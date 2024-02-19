@@ -1,11 +1,58 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-    <h1>HEY</h1>
+    <meta charset="utf-8" />
+    <title>Testing Problems</title>
+    <link rel="stylesheet" href="css/index.css" />
 </head>
 <body>
- 
+    <h1>Testing Problems</h1>
+    <h3>Add a problem</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+        <input type="text" id="add-title" placeholder="Title">
+        <input type="text" id="add-problem" placeholder="Add problem">
+        <input type="text" id="add-solution" placeholder="Add solution">
+        <input type="text" id="add-type" placeholder="Add type">
+        <input type="submit" value="Add">
+    </form>
+
+
+
+    <div id="editForm">
+        <h3>Edit</h3>
+        <form action="javascript:void(0);" onsubmit="updateItem()">
+            <input type="hidden" id="edit-id">
+            <input type="text" id="edit-title">
+            <input type="text" id="edit-problem">
+            <input type="text" id="edit-solution">
+            <input type="text" id="edit-type">
+
+            <input type="submit" value="Save">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Problem</th>
+            <th>Solution</th>
+            <th>Type</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tbody id="problems"></tbody>
+    </table>
+
+
+    <script src="js/index.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItems();
+    </script>
+
+
 </body>
 </html>

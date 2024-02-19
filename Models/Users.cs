@@ -18,10 +18,11 @@ public class Users
 
     //public string username { get; set; } = null!;
 
+    /*
 
     [BsonElement("usersList")]
     [JsonPropertyName("usersList")]
     public List<string> usersList { get; set; } = null!;
 
-
+    */
 }
