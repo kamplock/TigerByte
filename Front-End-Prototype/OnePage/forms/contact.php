@@ -1,41 +1,40 @@
 <?php
-  /**
-  * Requires the "PHP Email Form" library
-  * The "PHP Email Form" library is available only in the pro version of the template
-  * The library should be uploaded to: vendor/php-email-form/php-email-form.php
-  * For more info and help: https://bootstrapmade.com/php-email-form/
-  */
+// Check for form submission
+if (isset($_POST['name'])) {
 
-  // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+  // Retrieve form data
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $subject = $_POST['subject'];
+  $message = $_POST['message'];
 
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
+  // Set recipient email address
+  $to = 'olivia.navarroalsina@doane.edu'; // Replace with your actual email address
+
+  // Email headers
+  $headers = 'From: ' . $name . ' <' . $email . '>' . "\r\n";
+
+  // Email body content
+  $body = "You have received a new message from your contact form:\n\n";
+  $body .= "Name: $name\n";
+  $body .= "Email: $email\n";
+  $body .= "Subject: $subject\n";
+  $body .= "Message:\n$message";
+
+  // Send email using PHP's mail() function
+  if (mail($to, $subject, $body, $headers)) {
+    echo "<script>
+      document.querySelector('.loading').style.display = 'none';
+      document.querySelector('.error-message').style.display = 'none';
+      document.querySelector('.sent-message').style.display = 'block';
+      document.querySelector('.php-email-form').reset();
+    </script>";
   } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
+    echo "<script>
+      document.querySelector('.loading').style.display = 'none';
+      document.querySelector('.error-message').innerHTML = 'An error occurred while sending the email.';
+      document.querySelector('.error-message').style.display = 'block';
+    </script>";
   }
-
-  $contact = new PHP_Email_Form;
-  $contact->ajax = true;
-  
-  $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
-
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
-  $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
-  );
-  */
-
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
-
-  echo $contact->send();
+}
 ?>

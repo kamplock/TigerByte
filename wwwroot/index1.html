@@ -2,15 +2,17 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Testing Users</title>
+    <title>Members</title>
     <link rel="stylesheet" href="css/index1.css" />
 </head>
 <body>
-    <h1>Testing Users</h1>
-    <h3>Add a user</h3>
+    <h1>Team Members</h1>
+    <h3>Add A Team Member</h3>
     <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
-        <input type="text" id="add-name" placeholder="Name">
-        <input type="email" id="add-email" placeholder="Email Address">
+        <input type="text" id="add-name" placeholder="Name" required>
+        <br>
+        <input type="email" id="add-email" placeholder="Email Address" required>
+        <br>
         <input type="submit" value="Add">
     </form>
 

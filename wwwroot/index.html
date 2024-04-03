@@ -6,20 +6,20 @@
     <link rel="stylesheet" href="css/index.css" />
 </head>
 <body>
-    <h1>Testing Problems</h1>
-    <h3>Add a problem</h3>
+    <h1>Doane Programming Problems</h1>
+    <h3>Add A Problem</h3>
     <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
-        <input type="text" id="add-title" placeholder="Title">
-        <input type="text" id="add-problem" placeholder="Add problem">
-        <input type="text" id="add-solution" placeholder="Add solution">
-        <input type="text" id="add-type" placeholder="Add type">
+        <input type="text" id="add-title" placeholder="Title" required>
+        <input type="text" id="add-problem" placeholder="Add problem" required>
+        <input type="text" id="add-solution" placeholder="Add solution" required>
+        <input type="text" id="add-type" placeholder="Add type" required>
         <input type="submit" value="Add">
     </form>
 
 
 
     <div id="editForm">
-        <h3>Edit</h3>
+        <h2>Edit</h2>
         <form action="javascript:void(0);" onsubmit="updateItem()">
             <input type="hidden" id="edit-id">
             <input type="text" id="edit-title">
@@ -41,8 +41,8 @@
             <th>Problem</th>
             <th>Solution</th>
             <th>Type</th>
-            <th></th>
-            <th></th>
+            <th>Edit</th>
+            <th>Delete</th>
         </tr>
         <tbody id="problems"></tbody>
     </table>
