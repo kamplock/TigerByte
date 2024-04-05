@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Testing Problems</title>
+    <link rel="stylesheet" href="css/problemsAdmin.css" />
+</head>
+<body>
+    <h1>Doane Programming Problems</h1>
+    <br>
+    <button onclick="window.location.href='https://localhost:44317/usersAdmin.html'">Switch to Team Member View</button>
+    <button onclick="window.location.href='https://localhost:44317/login.html'" style="background-color: red;">Logout</button>
+
+    <h3>Hello, Coach Mark Meysenburg!</h3>
+    <h3>Add a problem</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+        <input type="text" id="add-title" placeholder="Title" required>
+        <input type="text" id="add-problem" placeholder="Add problem" required>
+        <input type="text" id="add-solution" placeholder="Add solution" required>
+        <input type="text" id="add-type" placeholder="Add type" required>
+        <input type="submit" value="Add">
+    </form>
+
+
+
+    <div id="editForm">
+        <h2>Edit</h2>
+        <form action="javascript:void(0);" onsubmit="updateItem()">
+            <input type="hidden" id="edit-id">
+            <input type="text" id="edit-title">
+            <input type="text" id="edit-problem">
+            <input type="text" id="edit-solution">
+            <input type="text" id="edit-type">
+
+            <input type="submit" value="Save">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Problem</th>
+            <th>Solution</th>
+            <th>Type</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <tbody id="problems"></tbody>
+    </table>
+
+
+    <script src="js/problemsAdmin.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItems();
+    </script>
+
+
+</body>
+</html>

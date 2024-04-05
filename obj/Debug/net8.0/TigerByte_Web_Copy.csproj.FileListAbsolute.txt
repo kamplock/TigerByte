@@ -90,7 +90,3 @@ C:\Users\kampl\OneDrive\Desktop\TigerByteOldGitClone\obj\Debug\net8.0\refint\Tig
 C:\Users\kampl\OneDrive\Desktop\TigerByteOldGitClone\obj\Debug\net8.0\TigerByte_Web_Copy.pdb
 C:\Users\kampl\OneDrive\Desktop\TigerByteOldGitClone\obj\Debug\net8.0\TigerByte_Web_Copy.genruntimeconfig.cache
 C:\Users\kampl\OneDrive\Desktop\TigerByteOldGitClone\obj\Debug\net8.0\ref\TigerByte_Web_Copy.dll
-C:\Users\kampl\OneDrive\Desktop\TigerByteOldGitClone\bin\Debug\net8.0\Front-End-Prototype\login-tutorial\package-lock.json
-C:\Users\kampl\OneDrive\Desktop\TigerByteOldGitClone\bin\Debug\net8.0\Front-End-Prototype\login-tutorial\package.json
-C:\Users\kampl\OneDrive\Desktop\TigerByteOldGitClone\bin\Debug\net8.0\Front-End-Prototype\OnePage\assets\vendor\bootstrap-icons\bootstrap-icons.json
-C:\Users\kampl\OneDrive\Desktop\TigerByteOldGitClone\bin\Debug\net8.0\Front-End-Prototype\OnePage\assets\vendor\remixicon\remixicon.glyph.json

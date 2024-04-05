@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Filter Problems</title>
+    <link rel="stylesheet" href="css/userView.css" />
+</head>
+<body>
+    <h1>Doane Programming Problems</h1>
+    <br>
+    <button onclick="window.location.href='https://localhost:44317/login.html'" style="background-color: red;">Logout</button>
+    <h3>Hello, Doane Student!</h3>
+    <form action="javascript:void(0);" onsubmit="filterProblems()">
+        <label for="filterType">Filter problems based on type: </label>
+
+        <select name="filterType" id="filterDropdown">
+            <option value="algorithms">Algorithms</option>
+            <option value="datastructures">Data Structures</option>
+            <option value="mathematics">Mathematics</option>
+            <option value="optimizing">Optimizing</option>
+            <option value="sorting">Sorting</option>
+            <option value="strings">Strings</option>
+
+        </select>
+
+        <input type="submit" value="Go">
+    </form>
+
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Problem</th>
+            <th>Solution</th>
+            <th>Type</th>
+
+        </tr>
+        <tbody id="problems"></tbody>
+    </table>
+
+
+    <script src="js/userView.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItems();
+    </script>
+
+
+</body>
+</html>

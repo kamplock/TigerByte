@@ -1,28 +1,552 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\css\\index.css",
-      "PackagePath": "staticwebassets\\css\\index.css"
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\css\\background\\backgroundLogin2.jpg",
+      "PackagePath": "staticwebassets\\css\\background\\backgroundLogin2.jpg"
     },
     {
-      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\css\\index1.css",
-      "PackagePath": "staticwebassets\\css\\index1.css"
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\css\\problemsAdmin.css",
+      "PackagePath": "staticwebassets\\css\\problemsAdmin.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\css\\userView.css",
+      "PackagePath": "staticwebassets\\css\\userView.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\css\\usersAdmin.css",
+      "PackagePath": "staticwebassets\\css\\usersAdmin.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\DU-Logo.png",
+      "PackagePath": "staticwebassets\\img\\DU-Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\about-video.jpg",
+      "PackagePath": "staticwebassets\\img\\about-video.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\portfolio\\portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\portfolio\\portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\portfolio\\portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\portfolio\\portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\portfolio\\portfolio-5.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\portfolio\\portfolio-6.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\portfolio\\portfolio-7.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\portfolio\\portfolio-8.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\portfolio\\portfolio-9.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\portfolio\\portfolio-details-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\portfolio\\portfolio-details-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\portfolio\\portfolio-details-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-details-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\team\\gavin.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\gavin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\team\\kamryn.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\kamryn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\team\\mark.jpeg",
+      "PackagePath": "staticwebassets\\img\\team\\mark.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\team\\nolan.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\nolan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\team\\nophoto.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\nophoto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\team\\olivia.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\olivia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-5.jpg"
     },
     {
       "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\index1.html",
-      "PackagePath": "staticwebassets\\index1.html"
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\js\\index.js",
-      "PackagePath": "staticwebassets\\js\\index.js"
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\js\\problemsAdmin.js",
+      "PackagePath": "staticwebassets\\js\\problemsAdmin.js"
     },
     {
-      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\js\\index1.js",
-      "PackagePath": "staticwebassets\\js\\index1.js"
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\js\\userView.js",
+      "PackagePath": "staticwebassets\\js\\userView.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\js\\usersAdmin.js",
+      "PackagePath": "staticwebassets\\js\\usersAdmin.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\problemsAdmin.html",
+      "PackagePath": "staticwebassets\\problemsAdmin.html"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\scss\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\userView.html",
+      "PackagePath": "staticwebassets\\userView.html"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\usersAdmin.html",
+      "PackagePath": "staticwebassets\\usersAdmin.html"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\vendor\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\vendor\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\remixicon\\remixicon.css",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\remixicon\\remixicon.eot",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.eot"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\remixicon\\remixicon.glyph.json",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.glyph.json"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\remixicon\\remixicon.less",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.less"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\remixicon\\remixicon.svg",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\remixicon\\remixicon.symbol.svg",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.symbol.svg"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\remixicon\\remixicon.ttf",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\remixicon\\remixicon.woff",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.woff"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\remixicon\\remixicon.woff2",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kampl\\OneDrive\\Desktop\\TigerByteOldGitClone\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js.map"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TigerByte_Web_Copy.Microsoft.AspNetCore.StaticWebAssets.props",

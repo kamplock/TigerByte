@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Members</title>
+    <link rel="stylesheet" href="css/usersAdmin.css" />
+</head>
+<body>
+    <h1>Team Members</h1>
+    <br>
+    <button onclick="window.location.href='https://localhost:44317/problemsAdmin.html'">Switch to Problems View</button>
+    <button onclick="window.location.href='https://localhost:44317/login.html'" style="background-color: red;">Logout</button>
+
+    <h3>Hello, Coach Mark Meysenburg!</h3>
+    <h3>Add a new team member</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+        <input type="text" id="add-name" placeholder="Name" required>
+        <br>
+        <input type="email" id="add-email" placeholder="Email Address" required>
+        <br>
+        <input type="submit" value="Add">
+    </form>
+
+    <div id="editForm">
+        <h3>Edit</h3>
+        <form action="javascript:void(0);" onsubmit="updateItem()">
+            <input type="hidden" id="edit-id">
+            <input type="text" id="edit-name">
+            <input type="email" id="edit-email">
+
+            <input type="submit" value="Save">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tbody id="users"></tbody>
+    </table>
+
+    <script src="js/usersAdmin.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItems();
+    </script>
+</body>
+</html>
+
