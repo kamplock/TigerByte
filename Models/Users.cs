@@ -16,13 +16,5 @@ public class Users
     public string Name { get; set; } = null!;
     public string Email { get; set; } = null!;
 
-    //public string username { get; set; } = null!;
-
-    /*
-
-    [BsonElement("usersList")]
-    [JsonPropertyName("usersList")]
-    public List<string> usersList { get; set; } = null!;
-
-    */
+  
 }
